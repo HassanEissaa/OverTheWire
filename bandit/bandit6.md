@@ -15,3 +15,11 @@ Commands you may need to solve this level
 -----------------------------------------
 ls, cd, cat, file, du, find
 
+Solution
+--------------------------
+```bash
+bandit5@bandit:~/inhere$ find . -size 1033c  ! -executable -type f
+./maybehere07/.file2
+bandit5@bandit:~/inhere$ cat ./maybehere07/.file2
+DXjZPULLxYr17uwoI01bNLQbtFemEgo7
+```

@@ -14,3 +14,9 @@ Commands you may need to solve this level
 -----------------------------------------
 ls, cd, cat, file, du, find
 
+Solution
+--------------------------
+```bash
+bandit0@bandit:~$ cat readme
+boJ9jbbUNNfktd78OOpsqOltutMc3MY1
+```

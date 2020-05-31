@@ -13,3 +13,12 @@ Commands you may need to solve this level
 -----------------------------------------
 grep, sort, uniq, strings, base64, tr, tar, gzip, bzip2, xxd
 
+Solution
+--------------------------
+```bash
+bandit9@bandit:~$ strings data.txt | grep ====
+========== the*2i4
+========== password
+Z)========== is
+&========== truKLdjsbJ5g7yyJ2X2R0o3a5HQJFuLk
+```

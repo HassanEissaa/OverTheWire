@@ -17,3 +17,10 @@ Helpful Reading Material
 - [Piping and Redirection][]
 
 [Piping and Redirection]: https://ryanstutorials.net/linuxtutorial/piping.php
+
+Solution
+--------------------------
+```bash
+bandit8@bandit:~$ sort data.txt | uniq -u
+UsvVyFSfZZWbi6wgC7dAFyFuR6jQQUhR
+```

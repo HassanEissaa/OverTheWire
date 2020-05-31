@@ -17,3 +17,11 @@ Helpful Reading Material
 - [Google Search for "spaces in filename"][]
 
 [Google Search for "spaces in filename"]: https://www.google.com/search?q=spaces+in+filename
+Solution
+--------------------------
+```bash
+bandit2@bandit:~$ ls
+spaces in this filename
+bandit2@bandit:~$ cat spaces\ in\ this\ filename
+UmHadQclWmgdLOKQ3YNgjWxGoRMb5luK
+```

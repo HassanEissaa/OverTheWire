@@ -19,3 +19,12 @@ Helpful Reading Material
 
 [Google Search for "dashed filename"]: https://www.google.com/search?q=dashed+filename
 [Advanced Bash-scripting Guide - Chapter 3 - Special Characters]: http://tldp.org/LDP/abs/html/special-chars.html
+Solution
+--------------------------
+```bash
+$ ssh  bandit1@bandit.labs.overthewire.org -p 2220
+bandit1@bandit:~$ ls
+-
+bandit1@bandit:~$ cat ./-
+CV1DtqXWVFXTvM2F0k09SHz0YwRINYA9
+```
