@@ -18,3 +18,7 @@ Helpful Reading Material
 - [Rot13 on Wikipedia][]
 
 [Rot13 on Wikipedia]: http://en.wikipedia.org/wiki/Rot13
+```bash
+bandit11@bandit:~$ cat data.txt | tr 'A-Za-z' 'N-ZA-Mn-za-m'
+The password is 5Te8Y4drgCRfCx8ugdwuEX8KFC6k2EUu
+```

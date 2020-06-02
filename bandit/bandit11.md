@@ -17,3 +17,11 @@ Helpful Reading Material
 - [Base64 on Wikipedia][]
 
 [Base64 on Wikipedia]: http://en.wikipedia.org/wiki/Base64
+
+Solution
+--------------------------
+```bash
+bandit10@bandit:~$ man base64
+bandit10@bandit:~$ base64 -d data.txt
+The password is IFukwKGsFW8MOq3IRFqrxE1hxTNEbUPR
+```
